@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    border: 1px solid black;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+.search {
+    margin-bottom: 1rem;
+}
+
+input {
+    height: 2rem;
+    width: 20rem;
+    box-sizing:border-box;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .2);
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 10px;
+}
+
+button {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+.cityName {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.temp {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    width: 2.5rem;
+}
+
+.desc, .humidity, .wind {
+    margin-bottom: .5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.iconimage {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Around The World</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/bf705af828.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="background">
+        <div class="overlay">
+            <div class="search">
+                <input type="text" name="" id="citySearch" placeholder="Search">
+                <button type="submit" data-search-button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="hide" data-info="">
+                <div class="cityName">Weather in <span data-city-name></span></div>
+                <div class="temp"><span data-temp></span>°C</div>
+                <div class="iconimage">
+                    <img src="" alt="" data-icon>
+                    <div class="desc" data-desc></div>
+                </div>
+                <div class="humidity">Humidity: <span data-humidity></span>%</div>
+                <div class="wind">Wind speed: <span data-wind></span> km/h</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
